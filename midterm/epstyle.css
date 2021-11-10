@@ -1,0 +1,123 @@
+*{margin:0;
+padding:0;
+}
+
+#wrapper{
+  max-width: 1475px;
+  margin: 0 auto;
+}
+
+header{
+background:linear-gradient(92deg, rgba(120,203,251,1) 0%, rgba(165,217,255,1) 35%, rgba(158,210,254,0) 60%),
+url("images/bobs.jpeg") right top no-repeat;
+  padding:2em;
+  height:400px;
+}
+
+header p {width:250px;
+}
+
+body{
+  font-family: sans-serif;
+}
+h1 img{width:10em
+}
+.btn{
+ display: block;
+width: 55px;
+margin-top:1em;
+  padding: 10px;
+  background-position: bottom;
+  background: url("images/play.svg") no-repeat 1px center , red;
+  padding-left: 2.5em;
+}
+p strong {
+  background-position: right;
+}
+
+h1 img{
+  max-width: 100%
+
+}
+header button{
+  background-color: #C81519;
+  background-position: left;
+  border: none;
+  color:#fff;
+  padding:10px;
+  padding-left: 0;
+  border-radius: 5px;
+}
+
+
+a:link{
+  color:#00ff00;
+}
+
+
+  .navbar{
+    background-color: #333;
+  padding: 1em;
+  }
+
+.navbar li{
+  display: inline-block;
+  background-color: #333;
+  padding: 1px;
+  margin-left: 1em;
+  border-right: solid 1px #fff;
+  padding-right: 2em;
+}
+
+.navbar a{
+  color:#fff;
+  text-decoration: none;
+}
+
+.navbar a:hover{
+  color:pink;
+text-decoration: underline;
+}
+
+
+.col{
+  width:48%;
+
+}
+.col-left{
+  float: left;
+}
+
+.col-right{
+  float: right;
+}
+
+footer{
+  clear:both;
+
+}
+
+main{
+  margin-top: 2em;
+
+}
+
+
+
+.episodes{
+  display:flex;
+flex-direction: row;
+justify-content:space-between;
+align-items: stretch;
+flex-wrap: nowrap;
+  flex:1 0 auto;
+
+
+}
+.episode-card{
+  display:flex;
+flex-direction: row;
+
+flex-wrap: wrap;
+  flex:1 0 auto;
+}
